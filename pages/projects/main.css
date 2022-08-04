@@ -1,0 +1,74 @@
+body {
+  background-color: bisque;
+  font-family: "Audiowide", sans-serif;
+}
+
+nav > ul > li {
+  list-style-type: none;
+  float: right;
+  margin-right: 30px;
+}
+
+nav > ul > li:hover {
+  background-color: black;
+  border-radius: 25px;
+  color: white;
+  padding: 2px;
+  opacity: 0.5;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.active-page {
+  background-color: black;
+  border-radius: 25px;
+  color: white;
+  padding: 2px;
+  opacity: 0.5;
+  cursor: none;
+}
+
+.calculator {
+  width: 510px;
+  height: 780px;
+  background-color: #e1cccc;
+  border: 5px solid #000;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+#result {
+  padding: 3em;
+  font-size: x-large;
+  width: 312px;
+  height: 1px;
+  background-color: cadetblue;
+}
+
+.row1,
+.row2,
+.row3,
+.row4,
+.row5,
+.row6 {
+  width: 90%;
+  background-color: white;
+  border: 1px solid #000;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.btn {
+  background-color: coral;
+  width: 110px;
+  height: 100px;
+  color: black;
+  border: solid black 2px;
+  text-align: center;
+  font-size: large;
+}

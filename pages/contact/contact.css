@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(183, 228, 206);
+    font-family: "Audiowide", sans-serif;
+}
+
+nav>ul>li {
+    list-style-type: none;
+    float: right;
+    margin-right: 30px;
+}
+
+nav>ul>li:hover {
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    padding: 2px;
+    opacity: 0.5;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.active-page {
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    padding: 2px;
+    opacity: 0.5;
+    cursor: none;
+}
